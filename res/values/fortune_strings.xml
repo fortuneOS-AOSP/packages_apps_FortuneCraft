@@ -24,6 +24,7 @@
     <!-- Sub category -->
     <string name="statusbar_icons">Icons</string>
     <string name="statusbar_battery">Battery Customizations</string>
+    <string name="power_category">Power Button/Menu</string>
 
     <!-- Units --> 
     <string name="unit_seconds">seconds</string>
@@ -93,4 +94,7 @@
     <string name="status_bar_notif_count_title">Notification count</string>
     <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
 
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Allow power menu on lockscreen</string>
+    <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
 </resources>
