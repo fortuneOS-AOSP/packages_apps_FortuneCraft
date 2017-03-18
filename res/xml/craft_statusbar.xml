@@ -38,6 +38,18 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:title="@string/statusbar_battery">
+
+        <!-- Bluetooth battery status -->
+        <org.fortune.framework.preferences.SystemSettingSwitchPreference
+            android:key="bluetooth_show_battery"
+            android:title="@string/status_bar_bluetooth_battery_title"
+            android:summary="@string/status_bar_bluetooth_battery_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/statusbar_notifications">
 
         <org.fortune.framework.preferences.SystemSettingSwitchPreference
