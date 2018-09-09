@@ -13,4 +13,16 @@
         android:key="gesture_illustration"
         app:lottie_rawRes="@raw/gesture_illustration" />
 
+    <PreferenceCategory
+        android:title="@string/general_category">
+
+        <Preference
+            android:key="gesture_settings"
+            android:title="@string/aosp_gesture_preference"
+            android:summary="@string/aosp_gesture_summary"
+            android:fragment="com.android.settings.gestures.GestureSettings"
+            settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
