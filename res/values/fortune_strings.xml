@@ -21,4 +21,11 @@
     <string name="craft_theme_title">Theme</string>
     <string name="craft_notifications_title">Notifications</string>
 
+    <!-- Sub category -->
+    <string name="statusbar_icons">Icons</string>
+
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Control visibility of status bar icons</string>
+
 </resources>
