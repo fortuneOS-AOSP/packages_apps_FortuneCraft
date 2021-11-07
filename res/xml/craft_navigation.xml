@@ -13,4 +13,16 @@
         android:key="nav_illustration"
         app:lottie_rawRes="@raw/nav_illustration" />
 
+    <PreferenceCategory
+        android:title="@string/general_category">
+
+        <Preference
+            android:key="gesture_system_navigation"
+            android:title="@string/system_navigation_title"
+            android:summary="@string/system_navigation_summary"
+            android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
+            settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
