@@ -18,6 +18,12 @@
         android:title="@string/statusbar_icons">
 
         <Preference
+            android:key="sbbatteryicons"
+            android:title="@string/status_bar_battery_style_title"
+            android:summary="@string/status_bar_battery_style_summary"
+            android:fragment="org.fortune.craft.fragments.BatteryStyleSettings" />
+
+        <Preference
             android:key="icon_manager"
             android:title="@string/icon_manager_title"
             android:summary="@string/icon_manager_summary">
