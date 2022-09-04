@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 FortuneOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/craft_dashboard_title">
+
+    <!-- Theme -->
+    <PreferenceScreen
+        android:key="theme_category"
+        android:title="@string/craft_theme_title"
+        android:fragment="org.fortune.craft.category.CraftTheme"
+        android:icon="@drawable/ic_settings_theme"/>
+
+    <!-- Status Bar -->
+    <PreferenceScreen
+        android:key="statusbar_category"
+        android:title="@string/craft_statusbar_title"
+        android:fragment="org.fortune.craft.category.CraftStatusBar"
+        android:icon="@drawable/ic_settings_statusbar"/>
+
+    <!-- Quick Settings panel -->
+    <PreferenceScreen
+        android:key="quicksettings_category"
+        android:title="@string/craft_quicksettings_title"
+        android:fragment="org.fortune.craft.category.CraftQuickSettings"
+        android:icon="@drawable/ic_settings_quicksettings"/>
+
+    <!-- Buttons -->
+    <PreferenceScreen
+        android:key="buttonsettings_category"
+        android:title="@string/craft_button_title"
+        android:fragment="org.fortune.craft.category.CraftButton"
+        android:icon="@drawable/ic_settings_buttons"/>
+
+    <!-- Navigation Bar -->
+    <PreferenceScreen
+        android:key="navigationbar_category"
+        android:title="@string/craft_navbar_title"
+        android:fragment="org.fortune.craft.category.CraftNavbar"
+        android:icon="@drawable/ic_settings_navbar"/>
+
+    <!-- Gestures -->
+    <PreferenceScreen
+        android:key="gestures_category"
+        android:title="@string/craft_gestures_title"
+        android:fragment="org.fortune.craft.category.CraftGesture"
+        android:icon="@drawable/ic_settings_gestures"/>
+
+    <!-- Lock Screen -->
+    <PreferenceScreen
+        android:key="lockscreen_category"
+        android:title="@string/craft_lockscreen_title"
+        android:fragment="org.fortune.craft.category.CraftLockScreen"
+        android:icon="@drawable/ic_settings_lockscreens"/>
+
+    <!-- Power Menu -->
+    <PreferenceScreen
+        android:key="powermenu__category"
+        android:title="@string/craft_powermenu_title"
+        android:fragment="org.fortune.craft.category.CraftPowerMenu"
+        android:icon="@drawable/ic_settings_powermenu"/>
+
+    <!-- Notifications -->
+    <PreferenceScreen
+        android:key="notifications_category"
+        android:title="@string/craft_notifications_title"
+        android:fragment="org.fortune.craft.category.CraftNotification"
+        android:icon="@drawable/ic_settings_notifications"/>
+
+    <!-- Misc -->
+    <PreferenceScreen
+        android:key="misc_category"
+        android:title="@string/craft_misc_title"
+        android:fragment="org.fortune.craft.category.CraftMisc"
+        android:icon="@drawable/ic_settings_miscs"/>
+
+</PreferenceScreen>
