@@ -14,12 +14,20 @@
         <org.fortune.framework.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_weather_enabled"
             android:title="@string/lockscreen_weather_title"
+            android:defaultValue="false"
             android:summary="@string/lockscreen_weather_summary" />
 
         <org.fortune.framework.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_weather_location"
             android:title="@string/lockscreen_weather_location_title"
             android:summary="@string/lockscreen_weather_location_summary"
+            android:dependency="lockscreen_weather_enabled" />
+
+        <org.fortune.framework.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_weather_text"
+            android:title="@string/lockscreen_weather_text_title"
+            android:summary="@string/lockscreen_weather_text_summary"
+            android:defaultValue="true"
             android:dependency="lockscreen_weather_enabled" />
 
         <Preference
