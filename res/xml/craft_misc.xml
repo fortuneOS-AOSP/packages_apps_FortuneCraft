@@ -16,6 +16,12 @@
     <PreferenceCategory
         android:title="@string/general_category">
 
+        <Preference
+            android:key="quickswitch"
+            android:title="@string/quickswitch_launcher_title" 
+            android:summary="@string/quickswitch_launcher_summary" 
+            android:fragment="org.fortune.framework.fragments.QuickSwitch" />
+
         <org.fortune.framework.preferences.GlobalSettingSwitchPreference
             android:key="window_ignore_secure"
             android:title="@string/laboratory_ignore_window_secure_title"
