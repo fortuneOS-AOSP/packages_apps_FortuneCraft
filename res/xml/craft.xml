@@ -12,70 +12,90 @@
     <PreferenceScreen
         android:key="theme_category"
         android:title="@string/craft_theme_title"
+        android:summary="@string/craft_theme_summary"
         android:fragment="org.fortune.craft.category.CraftTheme"
-        android:icon="@drawable/ic_settings_theme"/>
+        android:icon="@drawable/ic_settings_theme"
+        settings:layout="@layout/fortune_dashboard_pref_top"/>
 
     <!-- Status Bar -->
     <PreferenceScreen
         android:key="statusbar_category"
         android:title="@string/craft_statusbar_title"
+        android:summary="@string/craft_statusbar_summary"
         android:fragment="org.fortune.craft.category.CraftStatusBar"
-        android:icon="@drawable/ic_settings_statusbar"/>
+        android:icon="@drawable/ic_settings_statusbar"
+        settings:layout="@layout/fortune_dashboard_pref_mid"/>
 
     <!-- Quick Settings panel -->
     <PreferenceScreen
         android:key="quicksettings_category"
         android:title="@string/craft_quicksettings_title"
+        android:summary="@string/craft_quicksettings_summary"
         android:fragment="org.fortune.craft.category.CraftQuickSettings"
-        android:icon="@drawable/ic_settings_quicksettings"/>
+        android:icon="@drawable/ic_settings_quicksettings"
+        settings:layout="@layout/fortune_dashboard_pref_mid" />
 
     <!-- Buttons -->
     <PreferenceScreen
         android:key="buttonsettings_category"
         android:title="@string/craft_button_title"
+        android:summary="@string/craft_button_summary"
         android:fragment="org.fortune.craft.category.CraftButton"
-        android:icon="@drawable/ic_settings_buttons"/>
+        android:icon="@drawable/ic_settings_buttons"
+        settings:layout="@layout/fortune_dashboard_pref_mid"/>
 
     <!-- Navigation Bar -->
     <PreferenceScreen
         android:key="navigationbar_category"
         android:title="@string/craft_navbar_title"
+        android:summary="@string/craft_navbar_summary"
         android:fragment="org.fortune.craft.category.CraftNavbar"
-        android:icon="@drawable/ic_settings_navbar"/>
+        android:icon="@drawable/ic_settings_navbar"
+        settings:layout="@layout/fortune_dashboard_pref_mid"/>
 
     <!-- Gestures -->
     <PreferenceScreen
         android:key="gestures_category"
         android:title="@string/craft_gestures_title"
+        android:summary="@string/craft_gestures_summary"
         android:fragment="org.fortune.craft.category.CraftGesture"
-        android:icon="@drawable/ic_settings_gestures"/>
+        android:icon="@drawable/ic_settings_gestures"
+        settings:layout="@layout/fortune_dashboard_pref_mid"/>
 
     <!-- Lock Screen -->
     <PreferenceScreen
         android:key="lockscreen_category"
         android:title="@string/craft_lockscreen_title"
+        android:summary="@string/craft_lockscreen_summary"
         android:fragment="org.fortune.craft.category.CraftLockScreen"
-        android:icon="@drawable/ic_settings_lockscreens"/>
+        android:icon="@drawable/ic_settings_lockscreens"
+        settings:layout="@layout/fortune_dashboard_pref_mid"/>
 
     <!-- Power Menu -->
     <PreferenceScreen
         android:key="powermenu__category"
         android:title="@string/craft_powermenu_title"
+        android:summary="@string/craft_powermenu_summary"
         android:fragment="org.fortune.craft.category.CraftPowerMenu"
-        android:icon="@drawable/ic_settings_powermenu"/>
+        android:icon="@drawable/ic_settings_powermenu"
+        settings:layout="@layout/fortune_dashboard_pref_mid"/>
 
     <!-- Notifications -->
     <PreferenceScreen
         android:key="notifications_category"
         android:title="@string/craft_notifications_title"
+        android:summary="@string/craft_notifications_summary"
         android:fragment="org.fortune.craft.category.CraftNotification"
-        android:icon="@drawable/ic_settings_notifications"/>
+        android:icon="@drawable/ic_settings_notifications"
+        settings:layout="@layout/fortune_dashboard_pref_mid"/>
 
     <!-- Misc -->
     <PreferenceScreen
         android:key="misc_category"
         android:title="@string/craft_misc_title"
+        android:summary="@string/craft_misc_summary"
         android:fragment="org.fortune.craft.category.CraftMisc"
-        android:icon="@drawable/ic_settings_miscs"/>
+        android:icon="@drawable/ic_settings_miscs"
+        settings:layout="@layout/fortune_dashboard_pref_bot"/>
 
 </PreferenceScreen>

@@ -21,6 +21,18 @@
     <string name="craft_theme_title">Theme</string>
     <string name="craft_notifications_title">Notifications</string>
 
+    <!-- Categories summary -->
+    <string name="craft_button_summary">Customize your device buttons for a personalized experience.</string>
+    <string name="craft_gestures_summary">Enhance your navigation with intuitive gestures.</string>
+    <string name="craft_lockscreen_summary">Secure and personalize your lock screen.</string>
+    <string name="craft_misc_summary">Explore additional settings for fine-tuning your device.</string>
+    <string name="craft_navbar_summary">Tailor your navigation bar to fit your style.</string>
+    <string name="craft_powermenu_summary">Power up your menu options with extra controls.</string>
+    <string name="craft_quicksettings_summary">Streamline access with customizable quick settings.</string>
+    <string name="craft_statusbar_summary">Manage your status bar for a cleaner look.</string>
+    <string name="craft_theme_summary">Transform your devices look with stunning themes.</string>
+    <string name="craft_notifications_summary">Stay on top of alerts with smart notification settings.</string>
+
     <!-- Sub category -->
     <string name="general_category">General</string>
     <string name="statusbar_icons">Icons</string>
