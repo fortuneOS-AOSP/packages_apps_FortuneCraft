@@ -30,4 +30,16 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="spoofing_category"
+        android:title="@string/spoofing_category">
+
+        <Preference
+            android:key="spoofing"
+            android:title="@string/spoofing_title"
+            android:summary="@string/spoofing_title_summary"
+            android:fragment="org.fortune.craft.fragments.Spoof" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
