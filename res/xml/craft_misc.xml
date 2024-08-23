@@ -6,7 +6,12 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/craft_misc_title"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="misc_illustration"
+        app:lottie_rawRes="@raw/misc_illustration" />
 
     <PreferenceCategory
         android:title="@string/general_category">

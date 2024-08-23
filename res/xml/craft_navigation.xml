@@ -6,6 +6,11 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/craft_navbar_title"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" >
+
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="nav_illustration"
+        app:lottie_rawRes="@raw/nav_illustration" />
 
 </PreferenceScreen>
