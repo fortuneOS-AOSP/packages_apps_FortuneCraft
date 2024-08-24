@@ -13,4 +13,15 @@
         android:key="power_illustration"
         app:lottie_rawRes="@raw/power_illustration" />
 
+    <PreferenceCategory
+        android:title="@string/general_category">
+
+        <org.fortune.framework.preferences.SecureSettingSwitchPreference
+            android:key="advanced_reboot"
+            android:title="@string/global_actions_advanced_reboot_title"
+            android:summary="@string/global_actions_advanced_reboot_summary"
+            android:defaultValue="false" />
+    
+    </PreferenceCategory>
+
 </PreferenceScreen>

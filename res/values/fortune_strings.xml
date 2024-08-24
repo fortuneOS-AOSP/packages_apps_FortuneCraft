@@ -164,4 +164,8 @@
     <string name="idle_manager_title">Kill background processes</string>
     <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
 
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Advanced restart</string>
+    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
+
 </resources>
