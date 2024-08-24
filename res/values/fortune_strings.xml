@@ -160,4 +160,8 @@
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Kill background processes</string>
+    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
+
 </resources>
