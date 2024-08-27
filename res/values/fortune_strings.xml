@@ -160,10 +160,6 @@
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 
-    <!-- Idle Manager -->
-    <string name="idle_manager_title">Kill background processes</string>
-    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
-
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Advanced restart</string>
     <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
